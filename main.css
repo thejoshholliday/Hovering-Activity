@@ -1,0 +1,50 @@
+body {
+	 background: rgb(195,34,34);
+background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(3,3,3,1) 100%);
+	font-family: gopher;
+	font-size: 40px;
+	color: white;
+}
+.lip {
+margin-top: 60px;
+transition: all 0.5s ease;
+}
+
+.lip:hover {
+  -webkit-transform: rotate(360deg) scale(3);
+  transform: rotate(360deg) scale(3);
+  cursor: pointer;
+}
+.funky-cursor {
+  color: #DC143C;
+  font-family: poleno;
+}
+.funky-cursor:hover {
+  cursor: url(assets/lip.png), auto;
+}
+.content {
+  max-width: 1000px;
+  padding: 100px 30px;
+  margin: auto;
+  font-weight: 300;
+}
+.crimsonred {
+  text-decoration: none;
+  color: white;
+  background-color: #000000;
+  transition: all 0.1s ease;
+}
+.crimsonred:hover {
+  background-color: #DC143C;
+}
+.forever {
+	font-size: 20pt;
+  font-style: italic;
+  font-family: akira expanded;
+  transition: all 10s ease-in-out;
+}
+.forever:hover {
+  cursor: pointer;
+  font-size: 2em;
+}
+
